@@ -2,7 +2,7 @@
 Microsoft’s Local Group Policy Object (LGPO) utility is a standalone command-line executable that assists administrators in automating the management of a computer’s local security policy. The tool uses a combination of Group Policy Template (GptTmpl.inf) files, Registry Policy (registry.pol) files, and Audit Policy (audit.csv) files to apply desired configuration settings to targeted endpoints. In this article you will learn how to use Microsoft's LGPO utility to baseline the configuration of a Windows 10 system using DISA's Group Policy Objects (GPO).
 
 ## Prerequisites
-This article is meant to convey information that teaches you how to baseline the configuration of a Windows 10 system. If you’d like to follow along with any of the demonstrations, you will need:
+This article is meant to convey information that teaches you how to baseline the configuration of a Windows 10 system using DISA's Group Policy Objects (GPO). If you’d like to follow along with any of the demonstrations, you will need:
 
 * A Windows 10 system.
 * Administrator rights on the Windows 10 system.
