@@ -50,4 +50,5 @@ Before applying a new policy, it is best practice to create a backup of your sys
     #Backup the system's current configuration to C:\LGPO using LGPO's /b switch.
     C:\LGPO\LGPO.exe /b C:\LGPO
     ```
-3. 
+3. Confirm that the command completes without reported errors:<br/><img src="https://user-images.githubusercontent.com/86627856/190925937-9a995aed-b908-4704-8714-e470490dc8a1.png" width=50% height=50%>
+
