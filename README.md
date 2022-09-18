@@ -53,7 +53,7 @@ If you want to follow along, please use the following steps to mirror the setup 
 5. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930779-f01c6b53-7ad4-4ee6-8d2f-d133622d1eaf.png" width=50% height=50%>
 
 
-Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration!
+Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration.
 
 ## Exporting Local Policy to a Backup with LGPO
 Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
