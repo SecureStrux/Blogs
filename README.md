@@ -58,7 +58,7 @@ Nice job! Your system is ready to go! In the next section you will use LGPO to b
 ## Exporting Local Policy to a Backup with LGPO
 Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
 1. Open a PowerShell session as an Administrator.
-2. Backup the system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**:
+2. Backup your system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**:
     ```PowerShell
     #Backup the system's current configuration to C:\LGPO using LGPO's /b switch.
     C:\LGPO\LGPO.exe /b C:\LGPO
