@@ -4,8 +4,8 @@ Microsoft’s Local Group Policy Object (LGPO) Utility is a standalone command-l
 ## Prerequisites
 This article is meant to convey information that teaches you how to baseline the configuration of a Windows 10 system. If you’d like to follow along with any of the demonstrations, you will need:
 
-* A Windows 10 system
-* Administrator rights on the Windows 10 system
+* A Windows 10 system.
+* Administrator rights on the Windows 10 system.
 
 ---
 **NOTE**
@@ -16,10 +16,10 @@ The commands that are used in this article will apply configuration changes to t
 
 ## About Microsoft's LGPO Utility
 LGPO.exe functions as a standalone executable program that can be run directly from the command-line. LGPO.exe does not install additional software on your system to perform its tasks. LGPO.exe has four (4) core modes, each of which is listed below:
-1. Export local policy to a backup
-2. Import and apply policy settings
-3. Parse a registry.pol file to LGPO text format
-4. Build a registry.pol file from LGPO text
+1. Export local policy to a backup.
+2. Import and apply policy settings.
+3. Parse a registry.pol file to LGPO text format.
+4. Build a registry.pol file from LGPO text.
 
 ---
 **NOTE**
@@ -30,7 +30,7 @@ Additional information on how to use the LGPO Utility can be found within the LG
 
 ## Downloading Microsoft's LGPO Utility
 The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download LGPO:
-1. Navigate to the [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319) download page
+1. Navigate to the [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319) download page.
 2. Click **Download**:<br/><img src="https://user-images.githubusercontent.com/86627856/190912770-f5758cef-d046-49ec-97db-dd00512ada5c.png" width=50% height=50%>
 3. Select **LGPO.zip** and then click **Next**:<br/><img src="https://user-images.githubusercontent.com/86627856/190913424-cae3a16d-b6ed-4bc8-bd9f-4fe3bd93139a.png" width=50% height=50%>
 4. Navigate to your system's default download location and confirm that the download completed successfully.
@@ -38,7 +38,8 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 
 ## Exporting Local Policy to a Backup with LGPO
 Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
-1. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
+1. Open a Command Prompt or PowerShell session as an Administrator.
+2. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
