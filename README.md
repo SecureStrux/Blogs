@@ -1,5 +1,5 @@
 # Apply Configuration With Microsoft’s LGPO Utility
-Microsoft’s Local Group Policy Object (LGPO) Utility is a standalone command-line executable that assists administrators in automating the management of a computer’s local security policy. The tool uses a combination of Group Policy Template (GptTmpl.inf) files, Registry Policy (registry.pol) files, and Audit Policy (audit.csv) files to apply desired configuration settings to endpoints. In this article, you will learn how to use Microsoft's LGPO utility to baseline the configuration of a Windows 10 system.
+Microsoft’s Local Group Policy Object (LGPO) Utility is a standalone command-line executable that assists administrators in automating the management of a computer’s local security policy. The tool uses a combination of Group Policy Template (GptTmpl.inf) files, Registry Policy (registry.pol) files, and Audit Policy (audit.csv) files to apply desired configuration settings to endpoints. In this article, you will learn how to use Microsoft's LGPO utility to baseline the configuration of a Windows 10 system using DISA STIG Group Policy Objects (GPO).
 
 ## Prerequisites
 This article is meant to convey information that teaches you how to baseline the configuration of a Windows 10 system. If you’d like to follow along with any of the demonstrations, you will need:
@@ -51,4 +51,6 @@ Before applying a new policy, it is best practice to create a backup of your sys
     C:\LGPO\LGPO.exe /b C:\LGPO
     ```
 3. Confirm that the command completes without error:<br/><img src="https://user-images.githubusercontent.com/86627856/190925937-9a995aed-b908-4704-8714-e470490dc8a1.png" width=50% height=50%>
+
+Great work! The configuration backup process is now complete! In the next section you will baseline the configuration of your Windows 10 system using DISA STIG Group Policy Objects (GPO).
 
