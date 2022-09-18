@@ -33,7 +33,7 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 1. Navigate to the [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319) download page.
 2. Click **Download**:<br/><img src="https://user-images.githubusercontent.com/86627856/190912770-f5758cef-d046-49ec-97db-dd00512ada5c.png" width=50% height=50%>
 3. Select **LGPO.zip** and then click **Next**:<br/><img src="https://user-images.githubusercontent.com/86627856/190913424-cae3a16d-b6ed-4bc8-bd9f-4fe3bd93139a.png" width=50% height=50%>
-4. Navigate to your system's default download location and confirm that the download completed successfully.
+4. Change your directory location to **C:\LGPO**.
 5. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
 
 ## Preparing the Environment
@@ -45,12 +45,13 @@ If you want to follow along, please use the following steps to mirror the setup 
     mkdir C:\LGPO
     ```
 3. Copy the **LGPO.exe** executable file from your **Downloads** directory to **C:\LGPO**:
-4. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
+4. Change your directory location to **C:\LGPO** using the `cd` command:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
     ```
-5. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930522-0853c47d-5c0f-4a32-a0f1-36498ddc7091.png" width=50% height=50%>
+5. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930750-db45ff44-096d-4d64-a66b-0a758b65e385.png" width=50% height=50%>
+6. ![image]()
 
 Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration!
 
