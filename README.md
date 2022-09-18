@@ -40,13 +40,14 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 
 ## Exporting Local Policy to a Backup with LGPO
 Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
-1. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored with **C:\LGPO**
+1. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
     ```
-2. Backup the system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**
+2. Backup the system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**:
     ```PowerShell
     #Backup the system's current configuration to C:\LGPO using LGPO's /b switch.
     C:\LGPO\LGPO.exe /b C:\LGPO
     ```
+3. 
