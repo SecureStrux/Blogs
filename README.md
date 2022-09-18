@@ -15,7 +15,7 @@ The commands that are used in this article will apply configuration changes to t
 ---
 
 ## About Microsoft's LGPO Utility
-LGPO.exe functions as a standalone executable program that can be run directly from the command-line. It does not install additional software on your system to perform its tasks. 
+LGPO.exe functions as a standalone executable program that can be run directly from the command-line. LGPO.exe does not install additional software on your system to perform its tasks. 
 
 1. Export local policy to a backup
 2. Import and apply policy settings
