@@ -44,18 +44,13 @@ If you want to follow along, please use the following steps to mirror the setup 
     #Create the C:\LGPO directory.
     mkdir C:\LGPO
     ```
-3. Copy the **LGPO.exe** executable file from your **Downloads** directory to C:\LGPO
-4. Confirm that **LGPO.exe** was successfully copied to **C:\LGPO**:
-    ```PowerShell
-    #Confirm that LGPO.exe exists within the C:\LGPO directory.
-    Test-Path -Path C:\LGPO\LGPO.exe
-    ```
-5. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
+3. Copy the **LGPO.exe** executable file from your **Downloads** directory to **C:\LGPO**:
+4. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
     ```
-6. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930522-0853c47d-5c0f-4a32-a0f1-36498ddc7091.png" width=50% height=50%>
+5. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930522-0853c47d-5c0f-4a32-a0f1-36498ddc7091.png" width=50% height=50%>
 
 Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration!
 
