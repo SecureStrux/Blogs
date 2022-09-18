@@ -36,14 +36,32 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 4. Navigate to your system's default download location and confirm that the download completed successfully.
 5. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
 
-## Exporting Local Policy to a Backup with LGPO
-Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
-1. Open a Command Prompt or PowerShell session as an Administrator.
-2. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
+## Preparing the Environment
+If you want to follow along, please use the following steps to mirror the setup of the system that was used to create this article:
+1. Open a PowerShell session as an Administrator.
+2. Use the following command to create a new directory named **LGPO**:
+    ```PowerShell
+    #Create the C:\LGPO directory.
+    mkdir C:\LGPO
+    ```
+3. Copy the **LGPO.exe** executable file from your **Downloads** directory to C:\LGPO
+4. Confirm that **LGPO.exe** was successfully copied to **C:\LGPO**:
+    ```PowerShell
+    #Confirm that LGPO.exe exists within the C:\LGPO directory.
+    Test-Path -Path C:\LGPO\LGPO.exe
+    ```
+5. Navigate to the directory that contains the LGPO executable file (LGPO.exe). The LGPO.exe file used within this article is stored within **C:\LGPO**:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
     ```
+6. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930522-0853c47d-5c0f-4a32-a0f1-36498ddc7091.png" width=50% height=50%>
+
+Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration!
+
+## Exporting Local Policy to a Backup with LGPO
+Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
+1. Open a PowerShell session as an Administrator.
 2. Backup the system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**:
     ```PowerShell
     #Backup the system's current configuration to C:\LGPO using LGPO's /b switch.
