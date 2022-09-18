@@ -15,7 +15,7 @@ The commands that are used in this article will apply configuration changes to t
 ---
 
 ## About Microsoft's LGPO Utility
-LGPO.exe functions as a standalone executable program that can be run directly from the command-line. LGPO.exe does not install additional software on your system to perform its tasks. LGPO.exe has four (4) core modes, each of which is listed below:
+LGPO.exe functions as a standalone executable program that can be run directly from the command-line. LGPO.exe does not install additional software on your system to perform its tasks. LGPO.exe has four (4) core modes:
 1. Export local policy to a backup.
 2. Import and apply policy settings.
 3. Parse a registry.pol file to LGPO text format.
