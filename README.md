@@ -6,7 +6,6 @@ This article is meant to convey information that teaches you how to baseline the
 
 * A Windows 10 system
 * Administrator rights on the Windows 10 system
-* The latest version of Microsoft's LGPO utility
 
 ---
 **NOTE**
