@@ -47,6 +47,6 @@ Before applying a new policy, it is best practice to create a backup of your sys
     ```
 2. Backup the system's current configuration using LGPO's `/b` switch. The following command will create and store a configuration backup within **C:\LGPO**
     ```PowerShell
-    #Backup the system's current configuration using LGPO's /b switch.
+    #Backup the system's current configuration to C:\LGPO using LGPO's /b switch.
     C:\LGPO\LGPO.exe /b C:\LGPO
     ```
