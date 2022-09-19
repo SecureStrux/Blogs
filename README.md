@@ -24,7 +24,7 @@ LGPO.exe functions as a standalone executable program that can be run directly f
 ---
 **NOTE**
 
-Additional information on how to use the LGPO Utility can be found within the LGPO.pdf file that comes embedded within the .zip download.
+Additional information on how to use the LGPO Utility can be found within the **LGPO.pdf** file that comes embedded within the **LGPO.zip** download.
 
 ---
 
