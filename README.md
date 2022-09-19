@@ -83,7 +83,7 @@ DISA's Windows 10 GPO contains place holders that require organization-specific 
 4. **Deny log on locally**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
 5. **Deny log on through Remote Desktop Services**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
 
-Insert your specific values prior to, or after, execution of the commands identified below.
+Insert your custom values prior to, or after, execution of the commands identified below.
 
 ---
 
