@@ -54,7 +54,7 @@ If you want to follow along, please use the following steps to mirror the setup 
     ```
 6. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** and the **DoD Windows 10 v[x]r[x]** directory are listed:<br/><img src="https://user-images.githubusercontent.com/86627856/191020711-6c59adca-cd18-41fd-a4c0-7844a76be9f9.png" width=50% height=50%>
 
-Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration.
+Nice job! Your system is ready to go! In the next section you will use LGPO to backup your system's current configuration.
 
 ## Exporting Local Policy to a Backup with LGPO
 Before applying a new policy, it is best practice to create a backup of your system’s current configuration. LGPO enables this functionality with the `/b` switch:
