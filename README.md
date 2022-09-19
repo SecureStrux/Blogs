@@ -24,7 +24,7 @@ LGPO.exe functions as a standalone executable program that can be run directly f
 Additional information on how to use the LGPO utility can be found within the **LGPO.pdf** file that comes embedded within the **LGPO.zip** download.
 
 ## Downloading Microsoft's LGPO Utility
-The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download LGPO:
+The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download the LGPO bundle:
 1. Navigate to the [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319) download page.
 2. Click **Download**:<br/><img src="https://user-images.githubusercontent.com/86627856/190912770-f5758cef-d046-49ec-97db-dd00512ada5c.png" width=50% height=50%>
 3. Select **LGPO.zip** and then click **Next**:<br/><img src="https://user-images.githubusercontent.com/86627856/190913424-cae3a16d-b6ed-4bc8-bd9f-4fe3bd93139a.png" width=50% height=50%>
