@@ -40,8 +40,8 @@ DISA packages preconfigure GPO templates to assist with the STIG implementation 
 1. Navigate to the [DoD Cyber Exchange's Group Policy Objects](https://public.cyber.mil/stigs/gpo/) download page.
 2. Click the GPO title under **GPO Downloads**. In the following screenshot you will see that the GPO title is **Group Policy Objects (GPOs) - July 2022**:<br/><img src="https://user-images.githubusercontent.com/86627856/191016877-154ad6d9-b8a5-44e1-9069-715f28bf0a68.png" width=50% height=50%>
 3. Be patient as the GPO bundle download completes.
+4. Extract the contents of the DISA GPO .zip archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
 
-This package is to be used to assist administrators implementing STIG settings within their environment. The administrator must fully test GPOs in test environments prior to live production deployments. The GPOs provided contain most applicable GPO STIG settings contained in STIG files.
 
 ## Preparing Your System
 If you want to follow along, please use the following steps to mirror the setup of the system that was used to create this article:
