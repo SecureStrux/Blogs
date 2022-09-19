@@ -36,7 +36,7 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 4. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
 
 ## Downloading DISA's GPO Bundle
-DISA packages preconfigure GPO templates to assist with the STIG implementation process. To download DISA's GPO bundle:
+DISA packages preconfigure Group Policy Object (GPO) templates to assist with the STIG implementation process. To download DISA's GPO bundle:
 1. Navigate to the [DoD Cyber Exchange's Group Policy Objects](https://public.cyber.mil/stigs/gpo/) download page.
 2. Click the GPO title under **GPO Downloads**. In the following screenshot you will see that the GPO title is **Group Policy Objects (GPOs) - July 2022**:<br/><img src="https://user-images.githubusercontent.com/86627856/191016877-154ad6d9-b8a5-44e1-9069-715f28bf0a68.png" width=50% height=50%>
 3. Be patient as the GPO bundle download completes.
