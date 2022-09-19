@@ -51,7 +51,7 @@ If you want to follow along, please use the following steps to mirror the setup 
     mkdir C:\LGPO
     ```
 3. Copy the **LGPO.exe** executable file from your **Downloads** directory to **C:\LGPO**
-4. Copy the **DoD Windows 10 v[x]r[x]** from the unzipped DISA GPO archive to **C:\LGPO**<br/><img src="https://user-images.githubusercontent.com/86627856/191019788-a75036fa-e1ff-4c26-9606-57e616b52ead.png" width=50% height=50%>
+4. Copy the **DoD Windows 10 v[x]r[x]** from the unzipped DISA GPO archive to **C:\LGPO**<br/><img src="https://user-images.githubusercontent.com/86627856/191022647-2191c32c-f09c-456a-b2a9-8cc9fd5f2c8f.png" width=50% height=50%>
 5. Change your directory location to **C:\LGPO** using the `cd` command:
     ```PowerShell
     #Change directory location to C:\LGPO.
