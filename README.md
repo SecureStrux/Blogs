@@ -102,7 +102,7 @@ Insert your specific values prior to, or after, execution of the commands identi
 ---
 **NOTE**
 
-If the aforementioned organization-specific User Rights Assignments were not modified within `C:\LGPO\DoD Windows 10 v2r4\GPOs\{AD8929AD-5491-4E51-A04E-6588E76D85B6}\DomainSysvol\GPO\Machine\microsoft\windows nt\SecEdit` prior executing the script, LGPO will report the following error:<br/><img src="https://user-images.githubusercontent.com/86627856/191126459-db8f276a-c462-4b13-832d-7c785ab53fe8.png" width=50% height=50%>
+If the aforementioned organization-specific User Rights Assignments were not modified within `C:\LGPO\DoD Windows 10 v2r4\GPOs\{AD8929AD-5491-4E51-A04E-6588E76D85B6}\DomainSysvol\GPO\Machine\microsoft\windows nt\SecEdit\GptTmpl.inf` prior executing the script, LGPO will report the following error:<br/><img src="https://user-images.githubusercontent.com/86627856/191126459-db8f276a-c462-4b13-832d-7c785ab53fe8.png" width=50% height=50%>
 
 This error can be ignored if received.
 
