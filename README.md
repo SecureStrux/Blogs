@@ -21,12 +21,7 @@ LGPO.exe functions as a standalone executable program that can be run directly f
 3. Parse a registry.pol file to LGPO text format.
 4. Build a registry.pol file from LGPO text.
 
----
-**NOTE**
-
-Additional information on how to use the LGPO Utility can be found within the **LGPO.pdf** file that comes embedded within the **LGPO.zip** download.
-
----
+Additional information on how to use the LGPO utility can be found within the **LGPO.pdf** file that comes embedded within the **LGPO.zip** download.
 
 ## Downloading Microsoft's LGPO Utility
 The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download LGPO:
