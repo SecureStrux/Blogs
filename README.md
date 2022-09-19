@@ -88,7 +88,7 @@ Insert your custom values prior to, or after, execution of the commands identifi
 ---
 
 1. Open a PowerShell session as an Administrator.
-2. Apply the **DoD Windows 10 v[x]r[x]** using LGPO's `/g` switch:
+2. Apply the **DoD Windows 10 v[x]r[x]** GPO using LGPO's `/g` switch:
     ```PowerShell
     #Apply the DoD Windows 10 v[x]r[x] configuration using LGPO's /g switch.
     #NOTE: You may need to modify the version and revision (v[x]r[x]) numbers. At the time of this writing, the DoD Windows 10 GPO is v2r4.
