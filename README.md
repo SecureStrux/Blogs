@@ -82,3 +82,4 @@ Now that you've obtained a backup of your system's local policy, it is time to a
     #NOTE: You may need to modify the version and revision (v[x]r[x]) numbers. At the time of this writing, the DoD Windows 10 GPO is v2r4.
     C:\LGPO\LGPO.exe /g "C:\LGPO\DoD Windows 10 v2r4"
     ```
+3. Confirm that the command completes without error:
