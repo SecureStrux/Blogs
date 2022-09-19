@@ -72,3 +72,13 @@ Before applying a new policy, it is best practice to create a backup of your sys
 3. Confirm that the command completes without error:<br/><img src="https://user-images.githubusercontent.com/86627856/190925937-9a995aed-b908-4704-8714-e470490dc8a1.png" width=50% height=50%>
 
 Great work! The configuration backup process is now complete! In the next section you will baseline the configuration of your Windows 10 system using DISA's Group Policy Objects (GPO).
+
+## Apply Local Policy using LGPO
+Now that you've obtained a backup of your system's local policy, it is time to apply the new configuration. You can import settings from one or more Group Policy Objects (GPO) using LGPO's `/g` switch:
+1. Open a PowerShell session as an Administrator.
+2. Apply the **DoD Windows 10 v[x]r[x]** using LGPO's `/g` switch:
+    ```PowerShell
+    #Apply the DoD Windows 10 v[x]r[x] configuration using LGPO's /g switch.
+    #NOTE: You may need to modify the version and revision (v[x]r[x]) numbers. At the time of this writing, the DoD Windows 10 GPO is v2r4.
+    C:\LGPO\LGPO.exe /g C:\LGPO\DoD Windows 10 v2r4
+    ```
