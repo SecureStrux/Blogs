@@ -36,7 +36,7 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 4. Change your directory location to **C:\LGPO**.
 5. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
 
-## Preparing the Environment
+## Preparing Your System
 If you want to follow along, please use the following steps to mirror the setup of the system that was used to create this article:
 1. Open a PowerShell session as an Administrator.
 2. Use the following command to create a new directory named **LGPO**:
