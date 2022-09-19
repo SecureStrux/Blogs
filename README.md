@@ -40,8 +40,7 @@ DISA packages preconfigure GPO templates to assist with the STIG implementation 
 1. Navigate to the [DoD Cyber Exchange's Group Policy Objects](https://public.cyber.mil/stigs/gpo/) download page.
 2. Click the GPO title under **GPO Downloads**. In the following screenshot you will see that the GPO title is **Group Policy Objects (GPOs) - July 2022**:<br/><img src="https://user-images.githubusercontent.com/86627856/191016877-154ad6d9-b8a5-44e1-9069-715f28bf0a68.png" width=50% height=50%>
 3. Be patient as the GPO bundle download completes.
-4. Extract the contents of the DISA GPO .zip archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
-
+4. Extract the contents of the DISA GPO .zip archive:<br/><img src="https://user-images.githubusercontent.com/86627856/191019049-4915ca70-45ac-4946-867a-5b0ad2930597.png" width=50% height=50%>
 
 ## Preparing Your System
 If you want to follow along, please use the following steps to mirror the setup of the system that was used to create this article:
@@ -51,13 +50,14 @@ If you want to follow along, please use the following steps to mirror the setup 
     #Create the C:\LGPO directory.
     mkdir C:\LGPO
     ```
-3. Copy the **LGPO.exe** executable file from your **Downloads** directory to **C:\LGPO**:
-4. Change your directory location to **C:\LGPO** using the `cd` command:
+3. Copy the **LGPO.exe** executable file from your **Downloads** directory to **C:\LGPO**
+4. Copy the **DoD Windows 10 v[x]r[x]** from the unzipped DISA GPO archive to **C:\LGPO**<br/><img src="https://user-images.githubusercontent.com/86627856/191019788-a75036fa-e1ff-4c26-9606-57e616b52ead.png" width=50% height=50%>
+5. Change your directory location to **C:\LGPO** using the `cd` command:
     ```PowerShell
     #Change directory location to C:\LGPO.
     cd C:\LGPO
     ```
-5. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930779-f01c6b53-7ad4-4ee6-8d2f-d133622d1eaf.png" width=50% height=50%>
+6. Issue the `dir` command to list the contents of **C:\LGPO** and confirm that **LGPO.exe** is listed:<br/><img src="https://user-images.githubusercontent.com/86627856/190930779-f01c6b53-7ad4-4ee6-8d2f-d133622d1eaf.png" width=50% height=50%>
 
 
 Nice job! Your system is ready to go! In the next section you will use LGPO to backup your systems current configuration.
