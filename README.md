@@ -80,7 +80,7 @@ Now that you've obtained a backup of your system's local policy, it is time to a
 **NOTE**
 
 DISA's Windows 10 GPO contains place holders that require organization-specific values for the following [User Rights Assignments](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment):
-1. **Deny access to this computer from the network: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+1. **Deny access to this computer from the network**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
 2. **Deny log on as a batch job**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
 3. **Deny log on as a service**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
 4. **Deny log on locally**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
