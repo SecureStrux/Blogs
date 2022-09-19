@@ -97,7 +97,19 @@ Insert your specific values prior to, or after, execution of the commands identi
     #NOTE: You may need to modify the version and revision (v[x]r[x]) numbers. At the time of this writing, the DoD Windows 10 GPO is v2r4.
     C:\LGPO\LGPO.exe /g "C:\LGPO\DoD Windows 10 v2r4"
     ```
-3. Confirm that the command completes without error:
+3. Confirm that the command completes without error:<br/><img src="https://user-images.githubusercontent.com/86627856/191125840-9512bdbe-177e-4379-be92-7e3419ccd3fe.png" width=50% height=50%>
+
+---
+**NOTE**
+
+If the aforementioned organization-specific User Rights Assignments were not modified within `C:\LGPO\DoD Windows 10 v2r4\GPOs\{AD8929AD-5491-4E51-A04E-6588E76D85B6}\DomainSysvol\GPO\Machine\microsoft\windows nt\SecEdit` prior executing the script, LGPO will report the following error:<img src="https://user-images.githubusercontent.com/86627856/191125840-9512bdbe-177e-4379-be92-7e3419ccd3fe.png" width=50% height=50%>
+
+
+
+
+Please ignore this error if received.
+
+---
 
 ## Conclusion
 In this blog post you leared how to backup local policy configuration and apply a new configuration using DISA's DoD Windows 10 GPO! What else can you automate using LGPO? Hint: Run LGPO.exe with the `/?` switch to find out!
