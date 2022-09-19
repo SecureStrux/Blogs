@@ -108,5 +108,7 @@ This error can be ignored if received.
 
 ---
 
+Congratulations! You've successfully applied the DoD Windows 10 GPO to your system!
+
 ## Conclusion
 In this blog post you leared how to backup local policy configuration and apply a new configuration using DISA's DoD Windows 10 GPO! What else can you automate using LGPO? Hint: Run LGPO.exe with the `/?` switch to find out!
