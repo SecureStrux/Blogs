@@ -10,7 +10,9 @@ This article is meant to convey information that teaches you how to baseline the
 ---
 **NOTE**
 
-The commands that are used in this article will apply configuration changes to the target computer. It is recommended that the commands within this areticle are run on a test system or a virtual machine. Please proceed with caution!
+The commands that are used in this article will apply configuration changes to the target computer. It is recommended that the commands within this areticle are run on a test system or a virtual machine. The examples provided throughout this tutorial were generated using [Windows Sandbpx](https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview)
+
+Please proceed with caution!
 
 ---
 
