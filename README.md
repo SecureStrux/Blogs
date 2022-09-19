@@ -101,3 +101,12 @@ Insert your specific values prior to, or after, execution of the commands identi
 
 ## Conclusion
 In this blog post you leared how to backup local policy configuration and apply a new configuration using DISA's DoD Windows 10 GPO! What else can you automate using LGPO? Hint: Run LGPO.exe with the `/?` switch to find out!
+
+
+![image](https://user-images.githubusercontent.com/86627856/191125364-141bfae1-38d9-4896-ac06-4fe94a3a5637.png)
+
+![image](https://user-images.githubusercontent.com/86627856/191125558-b602d2a9-1946-436d-8093-00675b1f0e22.png)
+
+
+
+
