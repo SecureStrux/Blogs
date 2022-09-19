@@ -75,6 +75,21 @@ Great work! The configuration backup process is now complete! In the next sectio
 
 ## Apply Local Policy using LGPO
 Now that you've obtained a backup of your system's local policy, it is time to apply the new configuration. You can import settings from one or more Group Policy Objects (GPO) using LGPO's `/g` switch:
+
+---
+**NOTE**
+
+DISA's Windows 10 GPOs contain 'place holders' that require organization-specific values for the following [User Rights Assignments](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment):
+1. **Deny access to this computer from the network: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+2. **Deny log on as a batch job**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+3. **Deny log on as a service**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+4. **Deny log on locally**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+5. **Deny log on through Remote Desktop Services**: ADD YOUR ENTERPRISE ADMINS,ADD YOUR DOMAIN ADMINS
+
+Insert your specific values prior to, or after, execution of the commands identified below.
+
+---
+
 1. Open a PowerShell session as an Administrator.
 2. Apply the **DoD Windows 10 v[x]r[x]** using LGPO's `/g` switch:
     ```PowerShell
