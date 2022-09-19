@@ -33,8 +33,15 @@ The LGPO utility is part of Microsoft's Security Compliance Toolkit. To download
 1. Navigate to the [Microsoft Security Compliance Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=55319) download page.
 2. Click **Download**:<br/><img src="https://user-images.githubusercontent.com/86627856/190912770-f5758cef-d046-49ec-97db-dd00512ada5c.png" width=50% height=50%>
 3. Select **LGPO.zip** and then click **Next**:<br/><img src="https://user-images.githubusercontent.com/86627856/190913424-cae3a16d-b6ed-4bc8-bd9f-4fe3bd93139a.png" width=50% height=50%>
-4. Change your directory location to **C:\LGPO**.
-5. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
+4. Extract the contents of the **LGPO.zip** archive:<br/><img src="https://user-images.githubusercontent.com/86627856/190913990-ba59e29b-b2a2-4db2-9ab1-25a00cd62b75.png" width=50% height=50%>
+
+## Downloading DISA's GPO Bundle
+DISA packages preconfigure GPO templates to assist with the STIG implementation process. To download DISA's GPO bundle:
+1. Navigate to the [DoD Cyber Exchange's Group Policy Objects](https://public.cyber.mil/stigs/gpo/) download page.
+2. Click the GPO **Title** under **GPO Downloads**:<br/><img src="https://user-images.githubusercontent.com/86627856/191016877-154ad6d9-b8a5-44e1-9069-715f28bf0a68.png" width=50% height=50%>
+3. Be patient as the GPO bundle download completes.
+
+This package is to be used to assist administrators implementing STIG settings within their environment. The administrator must fully test GPOs in test environments prior to live production deployments. The GPOs provided contain most applicable GPO STIG settings contained in STIG files.
 
 ## Preparing Your System
 If you want to follow along, please use the following steps to mirror the setup of the system that was used to create this article:
