@@ -74,7 +74,7 @@ Before applying a new policy, it is best practice to create a backup of your sys
 Great work! The configuration backup process is now complete! In the next section you will baseline the configuration of your Windows 10 system using DISA GPOs.
 
 ## Apply Local Policy using LGPO
-Now that you've obtained a backup of your system's local policy, it is time to apply the new configuration. You can import settings from one or more Group Policy Objects (GPO) using LGPO's `/g` switch:
+Now that you've obtained a backup of your system's local policy, it is time to apply the new configuration. You can import settings from one or more GPOs using LGPO's `/g` switch:
 
 ---
 **NOTE**
