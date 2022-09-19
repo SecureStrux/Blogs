@@ -98,3 +98,6 @@ Insert your specific values prior to, or after, execution of the commands identi
     C:\LGPO\LGPO.exe /g "C:\LGPO\DoD Windows 10 v2r4"
     ```
 3. Confirm that the command completes without error:
+
+## Conclusion
+In this blog post you leared how to backup local policy configuration and apply a new configuration using DISA's DoD Windows 10 GPO! What other functionality can you look to implement with LGPO? Hint: Run LGPO.exe with the `/?` switch to find out!
